@@ -46,42 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Resources\LoginMain.cs">
+    <Compile Include="BL\LoginBL.cs" />
+    <Compile Include="DTO\LoginDTO.cs" />
+    <Compile Include="GUI\LoginMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\LoginMain.Designer.cs">
+    <Compile Include="GUI\LoginMain.Designer.cs">
       <DependentUpon>LoginMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\StudentMain.cs">
+    <Compile Include="GUI\StudentMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\StudentMain.Designer.cs">
+    <Compile Include="GUI\StudentMain.Designer.cs">
       <DependentUpon>StudentMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\AdminMain.cs">
+    <Compile Include="GUI\AdminMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\AdminMain.Designer.cs">
+    <Compile Include="GUI\AdminMain.Designer.cs">
       <DependentUpon>AdminMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\TeacherMain.cs">
+    <Compile Include="GUI\TeacherMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\TeacherMain.Designer.cs">
+    <Compile Include="GUI\TeacherMain.Designer.cs">
       <DependentUpon>TeacherMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Resources\LoginMain.resx">
+    <EmbeddedResource Include="GUI\LoginMain.resx">
       <DependentUpon>LoginMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\StudentMain.resx">
+    <EmbeddedResource Include="GUI\StudentMain.resx">
       <DependentUpon>StudentMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\AdminMain.resx">
+    <EmbeddedResource Include="GUI\AdminMain.resx">
       <DependentUpon>AdminMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\TeacherMain.resx">
+    <EmbeddedResource Include="GUI\TeacherMain.resx">
       <DependentUpon>TeacherMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -116,8 +118,6 @@
   <ItemGroup>
     <None Include="Resources\messenger.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GUI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

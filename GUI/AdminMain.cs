@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SCD_LAB_PROJ
 {
-    public partial class Admin : Form
+    public partial class AdminMain : Form
     {
-        public Admin()
+        public AdminMain()
         {
             InitializeComponent();
         }

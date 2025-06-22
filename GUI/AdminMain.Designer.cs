@@ -1,6 +1,6 @@
 ﻿namespace SCD_LAB_PROJ
 {
-    partial class Admin
+    partial class AdminMain
     {
         /// <summary>
         /// Required designer variable.
@@ -289,7 +289,7 @@
             this.button4.Text = "LogOut";
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // Admin
+            // AdminMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -303,7 +303,7 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Admin";
+            this.Name = "AdminMain";
             this.Text = "Form3";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

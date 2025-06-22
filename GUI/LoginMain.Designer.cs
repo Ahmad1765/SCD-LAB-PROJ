@@ -65,11 +65,12 @@
             this.button2.Location = new System.Drawing.Point(61, 404);
             this.button2.Margin = new System.Windows.Forms.Padding(67, 62, 67, 62);
             this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Padding = new System.Windows.Forms.Padding(4);
             this.button2.Size = new System.Drawing.Size(299, 34);
             this.button2.TabIndex = 11;
             this.button2.Text = "Continue";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // linkLabel1
             // 
@@ -87,30 +88,28 @@
             this.checkBox1.AccessibleName = "Remember me";
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(61, 346);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(119, 20);
+            this.checkBox1.Size = new System.Drawing.Size(125, 20);
             this.checkBox1.TabIndex = 9;
-            this.checkBox1.Text = "Remember me";
+            this.checkBox1.Text = "Show Password";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(61, 278);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(297, 22);
             this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "Password";
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(61, 212);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(297, 22);
             this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "Enter your email";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
@@ -155,7 +154,7 @@
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginMain";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
